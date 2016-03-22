@@ -7,7 +7,7 @@ module.exports = function(grunt) {
   /**
    * Register custom task to generate the assets
    */
-  grunt.registerTask('land-registry-elements', function(done) {
+  grunt.registerTask('land-registry-elements', function() {
     var path = require('path');
     var landRegistryElements = require('land-registry-elements');
 
