@@ -1,5 +1,7 @@
 # Example setups for using the land-registry-elements repo.
 
+Todo: Tests!
+
 [land-registry-elements](https://github.com/LandRegistry/land-registry-elements) provides a set of reusable components based on and extending the gov uk elements. This repository contains a series of examples showing how these components can be used within your application under the following scenarios. Each folder is a standalone demo.
 
 ## Node.JS
