@@ -18,7 +18,7 @@ In order to integrate with Grunt.JS, we implement a custom task and call that fr
 **See [grunt-js](grunt-js) for a demo**
 
 ### Gulp.JS
-In order to integrate with Grunt.JS, we implement a custom task and call that from the command line. This task should be added before any other tasks you have running such as sass.
+In order to integrate with Gulp.JS, we implement a custom task and call that from the command line. This task should be added before any other tasks you have running such as sass.
 
 **See [gulp-js](gulp-js) for a demo**
 
