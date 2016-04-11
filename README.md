@@ -23,7 +23,11 @@ In order to integrate with Gulp.JS, we implement a custom task and call that fro
 **See [gulp-js](gulp-js) for a demo**
 
 ### Make a GET request to the pattern library application
-By ticking the components you require on the index page, you will be provided with a URL to which you can make a GET request in your applications build pipeline. You can manually download a build (Using the buttons on the homepage) and commit it to your repository if necessary but you are encouraged to automate this wherever possible. See [Running the pattern library](#running-the-pattern-library) for more information on running the pattern library yourself. Alternatively you can make GET requests to the heroku demo directly but this is perhaps not recommended as it adds a dependency on an external service to your build script.
+By ticking the components you require on the index page, you can press the download button to retrieve a tarball of the assets. You have two options from here:
+
+* Manually download the build (Using the buttons on the homepage) and commit it to your repository. This is one of the simplest use cases you are encouraged to automate this wherever possible. In a perfect world, build artefacts would not live in repositories...
+
+* Make this same GET request in your application's build pipeline. This would involve running the pattern library somewhere and making a GET request to it directly. Alternatively you could make GET requests to the heroku demo directly but this is perhaps not recommended as it adds a dependency on an external service.
 
 **See [get-request](get-request) for a demo**
 

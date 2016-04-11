@@ -1,0 +1,14 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "land-registry-elements": "github:landregistry/land-registry-elements",
+    "request": "^2.70.0",
+    "rimraf": "^2.5.2",
+    "targz": "^1.0.1"
+  }
+}
