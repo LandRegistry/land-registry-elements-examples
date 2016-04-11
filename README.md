@@ -30,6 +30,7 @@ By ticking the components you require on the index page, you can press the downl
 * Make this same GET request in your application's build pipeline. This would involve running the pattern library somewhere and making a GET request to it directly. Alternatively you could make GET requests to the heroku demo directly but this is perhaps not recommended as it adds a dependency on an external service.
 
 **See [get-request-bash](get-request-bash) for a demo in Bash script**
+
 **See [get-request-node](get-request-node) for a demo in Node.JS**
 
 ### Bypass the pattern library's build scripts entirely!
