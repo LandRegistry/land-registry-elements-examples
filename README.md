@@ -29,7 +29,8 @@ By ticking the components you require on the index page, you can press the downl
 
 * Make this same GET request in your application's build pipeline. This would involve running the pattern library somewhere and making a GET request to it directly. Alternatively you could make GET requests to the heroku demo directly but this is perhaps not recommended as it adds a dependency on an external service.
 
-**See [get-request](get-request) for a demo**
+**See [get-request-bash](get-request-bash) for a demo in Bash script**
+**See [get-request-node](get-request-node) for a demo in Node.JS**
 
 ### Bypass the pattern library's build scripts entirely!
 The pattern library comes with a set of build scripts that will build out CSS and JS from the component folders in the repository by working out what is required based on the dependencies of each component (See [Defining a component](#defining-a-component) for more details). However if this is too prescriptive for your needs then you can sidestep this. At the end of the day, the patterns are simply defined as SCSS files on disk - you can simply `@import` them into your application's SCSS file if this better suits your needs and `require()` any JavaScript into a Browserify build script. This method is not particularly "supported" and you may encounter difficulties, but it is documented here as a possibility to emphasise that the pattern library's build scripts are complementary to the components rather than an intrinsic part of them.
