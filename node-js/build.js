@@ -7,7 +7,6 @@ var landRegistryElements = require('land-registry-elements');
  * should be used to interact with the results
  */
 landRegistryElements({
-  'includePath': __dirname,
   'destination': path.join(__dirname, 'dist'),              // Where should the assets be built to
   'assetPath': 'dist/assets',         // What will the web accessible path to the assets be (Used for image paths in the sass)
   'components': [                     // Specify which components you wish to include
