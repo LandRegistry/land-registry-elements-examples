@@ -1,0 +1,19 @@
+{
+  "name": "land-registry-elements-examples",
+  "version": "1.0.0",
+  "description": "[land-registry-elements](https://github.com/LandRegistry/land-registry-elements) provides a set of reusable components based on and extending the gov uk elements. This repository contains the bare minimum required to build these assets using [land-registry-gulp-tasks](https://github.com/LandRegistry/land-registry-gulp-tasks)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LandRegistry/land-registry-elements-examples.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LandRegistry/land-registry-elements-examples/issues"
+  },
+  "homepage": "https://github.com/LandRegistry/land-registry-elements-examples#readme"
+}
