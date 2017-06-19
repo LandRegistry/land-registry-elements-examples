@@ -1,0 +1,20 @@
+body {
+  max-width: 600px;
+  margin: 80px auto;
+
+  &::after {
+    content: 'CSS is loaded';
+    color: #008000;
+  }
+}
+
+.css-not-loaded {
+  display: none;
+}
+
+// Filler content to force the css file to be over 500 bytes and therefore
+// trigger gzipping.
+// Not necessary in reality - just for demo purposes
+.gzip-filler {
+  content: 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz';
+}
