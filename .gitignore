@@ -1,1 +1,4 @@
 node_modules
+app/assets/dist
+templates/vendor/govuk_template.html
+app/assets/src/scss/vendor
